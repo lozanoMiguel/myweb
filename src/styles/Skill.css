@@ -1,0 +1,45 @@
+.skillBall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px 25px;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid #1C3018;
+    box-shadow: 10px 10px 5px #4EB037; 
+}
+
+@media (max-width: 950px){
+    .skillBall{
+        font-weight: 700;
+        font-size: 17px;
+        letter-spacing: 0.6px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        padding: 7px;
+        border: 2px solid #1C3018;
+        box-shadow: 7px 7px 4px #4EB037; 
+    }
+}
+
+@media (max-width: 450px){
+    .skillBall{
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid #1C3018;
+        box-shadow: 4px 4px 3px #4EB037; 
+    }
+}

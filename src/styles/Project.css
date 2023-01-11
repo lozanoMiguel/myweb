@@ -1,0 +1,202 @@
+.projectCard{
+  width: 200px;
+  height: 358px;
+  border: 2px solid #D4F6CC;
+  border-radius: 20px;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard h3{
+  font-family: 'Figtree', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #D4F6CC;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.9px;
+}
+
+.projectCard p{
+  font-family: 'Figtree', sans-serif;
+  color: #D4F6CC;
+  /*letter-spacing: 0.9px;*/
+  font-size: 17px;
+  text-align: center;
+}
+
+.description{
+  height: 112px;
+  border-top: 3px solid #fff ;
+}
+
+.language{
+  height: 60px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCard img{
+  height: 100px;
+}
+
+.bottonBox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+
+.btnSource{
+  width: 50%;
+  height: 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btnWeb{
+  width: 50%;
+  height: 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 950px){
+    .projectCard{
+      width: 150px;
+      height: 268.5px;
+    }
+
+    .projectCard h3{
+      font-size: 15px;
+      height: 37px;
+    }
+    
+    .projectCard p{
+      font-size: 13px;
+    }
+    
+    .description{
+      height: 100px;
+      border-top: 2px solid #fff ;
+    }
+    
+    .language{
+      height: 40px;
+      margin-top: 2px;
+    }
+    
+    .projectCard img{
+      height: 67px;
+    }
+    
+    .bottonBox{
+      height: 37px;
+    }
+    
+    .btnSource{
+      width: 50%;
+      height: 30px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-left: 4px;
+      margin-right: 3.5px;
+      margin-bottom: 3.5px;
+    }
+    
+    .btnWeb{
+      width: 50%;
+      height: 30px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 4px;
+      margin-right: 3.5px;
+      margin-bottom: 3.5px;
+    }
+}
+
+@media (max-width: 450px){
+  .projectCard{
+    width: 100px;
+    height: 199px;
+    
+  }
+
+  .projectCard h3{
+    font-size: 10px;
+    height: 24px;
+    
+  }
+  
+  .projectCard p{
+    font-size: 9px;
+  }
+  
+  .description{
+    height: 50px;
+    border-top: 2px solid #fff;
+    margin-bottom: 10px;
+  }
+  
+  .language{
+    height: 25px;
+    margin-top: 5px;
+  }
+  
+  .projectCard img{
+    height: 43.5px;
+  }
+  
+  .bottonBox{
+    height: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .btnSource{
+    width: 50%;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    
+  }
+  
+  .btnWeb{
+    width: 50%;
+    height: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+  }
+}

@@ -1,0 +1,48 @@
+.separator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+.separator img{
+    width: 120px;
+    height: 90px;
+    margin: 0 15px;
+}
+
+@media (max-width: 950px){
+    .separator{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1px;
+        padding: 30px;
+        
+    }
+    
+    .separator img{
+        width: 70px;
+        height: 40px;
+        margin: 0 7px;
+    } 
+}
+
+@media (max-width: 450px){
+  .separator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    padding: 30px;
+    
+}
+
+.separator img{
+    width: 45px;
+    height: 25px;
+    margin: 0 1px;
+}
+}

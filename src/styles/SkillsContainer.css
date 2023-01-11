@@ -1,0 +1,27 @@
+.skillsContainer{
+  display: flex;
+  width: 100%;
+  padding: 100px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 950px){
+  .skillsContainer{
+    display: flex;
+    width: 100%;
+    padding: 70px 50px;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+}
+
+@media (max-width: 450px){
+  .skillsContainer{
+    display: flex;
+    width: 100%;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+}

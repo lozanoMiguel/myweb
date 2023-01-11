@@ -1,0 +1,30 @@
+.projectsContainer{
+  display: flex;
+  width: 100%;
+  /*margin: 100px 25px;*/
+  padding: 100px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 950px){
+  .projectsContainer{
+    display: flex;
+    width: 100%;
+    padding: 70px 50px;
+    
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+}
+
+@media (max-width: 450px){
+  .projectsContainer{
+    display: flex;
+    width: 100%;
+    padding: 4px 20px;
+    /*margin: 33px 9.5px;*/
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+}

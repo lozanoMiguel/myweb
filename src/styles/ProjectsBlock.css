@@ -1,0 +1,35 @@
+.projectsBlock{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;  
+}
+
+.projectsBlock h2{
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #D4F6CC;
+}
+
+@media (max-width: 950px){
+  .projectsBlock{
+    padding-top: 20px; 
+  }
+
+  .projectsBlock h2{
+    font-size: 30px;
+  }  
+}
+
+@media (max-width: 450px){
+  .projectsBlock{
+    padding-top: 10px; 
+  }
+
+  .projectsBlock h2{
+    font-size: 15px;
+  }  
+}
