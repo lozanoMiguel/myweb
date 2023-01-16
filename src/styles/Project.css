@@ -87,6 +87,12 @@
   margin-bottom: 5px;
 }
 
+a{
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
 @media (max-width: 950px){
     .projectCard{
       width: 150px;
