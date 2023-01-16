@@ -11,7 +11,7 @@ function ProjectsContainer(){
     <Project 
       title={'My web'}
       description={'Web diseñada para mi porfolio'}
-      languages={'React'}
+      languages={'React y Css'}
       img={p4}
       urlWeb={"http://lozanoMiguel.github.io/myweb"}
       urlGit={"https://github.com/lozanoMiguel/myweb.git"}
