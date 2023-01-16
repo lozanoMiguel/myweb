@@ -12,18 +12,21 @@ function ProjectsContainer(){
       description={'web diseñada para armar tu once ideal de la seleccion argentina de fútbol'}
       languages={'HTML5, Css Y JavaScript'}
       img={p1}
+      url={""}
       />
     <Project
       title={'Libro de novedades'}
       description={'Web diseñada para comunicar ordenadores de casa de ropa y facilitar la comunicacion'}
       languages={'HTML5, Css, JavaScript, NodeJs y MySQL'}
       img={ p2 }
+      url={""}
       />
     <Project
       title={'Notas web'}
       description={'Aplicacion web de notas donde, puedes arrastrar las notas y ubicarlas donde quieras, como tambien eliminarlas'}
       languages={'React y Css'}
       img={ p3 }
+      url={"http://www.lozanoMiguel.github.io/notes"}
       />  
     
     

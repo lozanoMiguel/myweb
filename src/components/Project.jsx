@@ -10,9 +10,13 @@ function Project(props){
            <img src={props.img} alt="Once ideal" />
            <p className="language">{props.languages}</p>
            <div className="bottonBox">
-            <button className="btnSource">Git</button>
-            <button className="btnWeb">Play</button>
-           </div>
+            <a href="#">
+              <button className="btnSource">Git</button>
+            </a>
+            <a href={ props.url }>
+              <button className="btnWeb"></button>
+            </a>
+            </div>
           </div>
 }
 
