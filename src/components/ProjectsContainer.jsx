@@ -4,24 +4,17 @@ import Project from './Project';
 import p1 from '../images/p1.png';
 import p2 from '../images/g5.png';
 import p3 from '../images/g6.png';
+import p4 from '../images/g7.png';
 
 function ProjectsContainer(){
   return <div className="projectsContainer">
     <Project 
-      title={'Mi once ideal'}
-      description={'web diseñada para armar tu once ideal de la seleccion argentina de fútbol'}
-      languages={'HTML5, Css Y JavaScript'}
-      img={p1}
-      urlWeb={""}
-      urlGit={""}
-      />
-    <Project
-      title={'Libro de novedades'}
-      description={'Web diseñada para comunicar ordenadores de casa de ropa y facilitar la comunicacion'}
-      languages={'HTML5, Css, JavaScript, NodeJs y MySQL'}
-      img={ p2 }
-      urlWeb={""}
-      urlGit={""}
+      title={'My web'}
+      description={'Web diseñada para mi porfolio'}
+      languages={'React'}
+      img={p4}
+      urlWeb={"http://lozanoMiguel.github.io/myweb"}
+      urlGit={"https://github.com/lozanoMiguel/myweb.git"}
       />
     <Project
       title={'Notas web'}
