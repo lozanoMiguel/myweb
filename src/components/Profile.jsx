@@ -14,8 +14,6 @@ function Profile(){
                     <p>Volcado hacia el Frontend pero con conocimientos en Backend. En busca de iniciar mi carrera profesional en el campo del desarrollo.</p>
                     <p>Me gusta pensar que saber buscar lo que no te deja avanzar es una herramienta muy poderosa tanto para el desarrollo como para la vida.</p>
                     <p>Te animo a contactarme, más abajo encontrarás cómo!</p>
-                    <p>En mis ratos libres juego al fútbol, toco la guitarra y disfruto el tiempo con mis amigos.</p>
-                       
                 </section>
            </div>
 }
