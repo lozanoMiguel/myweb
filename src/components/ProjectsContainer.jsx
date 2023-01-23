@@ -28,8 +28,8 @@ function ProjectsContainer(){
       description={'Dibujo de la señal, con animaciones. Dale click y llama al caballero de la noche!'} 
       languages={'HTML y Css'}
       img={ p5 }
-      urlWeb={"https://codepen.io/migloz/pen/ExQbMBM"}
-      urlGit={"proximamente"}
+      urlWeb={"https://lozanomiguel.github.io/batSignal"}
+      urlGit={"https://github.com/lozanoMiguel/batSignal"}
       />
   </div>
 }
